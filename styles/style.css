@@ -46,7 +46,7 @@ img {
 
 }
 
-.heading h3{
+.heading h3 {
     font-size: 32px;
     font-weight: 400;
     color: #fff;
@@ -54,21 +54,51 @@ img {
     padding: 177px 0 16px;
 }
 
-.heading h2{
+.heading h2 {
     font-size: 72px;
     font-weight: 900;
     color: #fff;
     line-height: 95px;
     text-align: center;
-    
-    
-
 
 }
 
+.categories {
+    padding: 80px;
+}
 
+.categories .c-text {
+    text-align: center;
+}
 
-font-family: 'Inter',
-sans-serif;
-font-family: 'Merriweather',
-serif;
+.categories .c-text h2 {
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: Inter;
+}
+
+.categories .c-text h4 {
+    margin-top: 40px;
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Inter;
+    margin-bottom: 5px;
+}
+
+.categories .c-text h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.categories .offimg{
+    margin: 40px 180px;
+    width: 800px;
+    height: 500px;
+}
