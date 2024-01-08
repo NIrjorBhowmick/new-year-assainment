@@ -28,6 +28,7 @@ img {
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 16px;
     position: relative;
     z-index: 1;
     text-align: right;
@@ -97,8 +98,359 @@ img {
     font-weight: 700;
 }
 
-.categories .offimg{
+.categories .offimg {
     margin: 40px 180px;
     width: 800px;
     height: 500px;
+}
+
+.hero {
+    background-image: url('../images/Vectorrr.png');
+    width: 1180px;
+    height: 600px;
+    margin: 0px 85px;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border-radius: 16px;
+    z-index: 1;
+    display: flex;
+}
+
+.hero::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+
+.hero .party {
+    padding: 150px 50px;
+
+
+
+}
+
+.hero .party h2 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 6.00px;
+    text-align: left;
+    padding-bottom: 15px;
+
+}
+
+.hero .party p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 15px;
+    width: 620px;
+}
+
+.hero .party button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #202421a6;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+.hero .party button:hover {
+    background-color: rgba(255, 217, 0, 0.603);
+    transition: .4s;
+}
+
+.hero img {
+    width: 319.83px;
+    height: 464.662px;
+}
+
+
+.park {
+    padding: 60px;
+}
+
+.park .hotel {
+    padding: 100px 10px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.212);
+}
+
+.park .hotel h2 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+}
+
+.park .hotel h2 span {
+    color: #F00;
+}
+
+.park .hotel button {
+    margin-top: 20px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #F00;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.park .hotel button:hover {
+    background-color: #1b18185e;
+    color: #F00;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.threeparts {
+    padding: 60px;
+    height: 800px;
+    background-color: rgba(255, 0, 0, 0.212);
+}
+
+.threeparts .allpart {
+    padding: 100px 10px;
+    text-align: left;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+
+}
+
+.firstpart h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.firstpart h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.firstpart p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.secondpart img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+
+}
+
+.threedpart h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.threedpart p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+.functional {
+    padding: 60px;
+}
+
+.functional .sale {
+    padding: 100px 10px;
+    text-align: center;
+}
+
+.sale h3 {
+    margin-bottom: 10px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale h2 {
+    margin-bottom: 10px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale h2 span {
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.sale p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.our {
+    padding: 60px;
+}
+
+.portfolio h3 {
+    margin-bottom: 10px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.portfolio h2 {
+    margin-bottom: 10px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.portfolio .port-pic img {
+    width: 360px;
+    height: 370px;
+    margin: 10px 10px;
+}
+
+.port-pic img:hover {
+    cursor: pointer;
+    background-color: #F00;
+    border-radius: 16px;
+    box-shadow: 0px -9px 30px 9px rgba(0, 0, 0, 0.562),
+        0px 3px 6px 0px rgba(0, 0, 0, 0.23);
+
+
+}
+
+
+.sub {
+    padding: 60px;
+}
+
+.latter img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+}
+
+.latter h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.latter p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+
+.sub form {
+    margin-left: 12%;
+    padding: 60px;
+    border-radius: 20px;
+    position: absolute;
+    align-items: center;
+
+}
+
+.sub input {
+    color: #fff;
+    background-color: #F00;
+    font-size: 20px;
+    padding: 10px 90px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+
+}
+
+.last {
+    padding-top: 100px;
+}
+
+.last .part {
+    background-color: black;
+    height: 460px;
+}
+
+.part h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    width: 300px;
+    padding-top: 30px;
+}
+
+.part h4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 250px;
 }
